@@ -1,0 +1,4 @@
+FROM python:alpine3.14
+WORKDIR /pyton/
+COPY pedrapapeltesoura.py /pyton/
+ENTRYPOINT ["python", "pedrapapeltesoura.py"]
